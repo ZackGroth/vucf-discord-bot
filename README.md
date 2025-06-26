@@ -12,20 +12,15 @@ A bot that automatically posts Volunteer UCF events weekly to a designated Disco
 ## Setup
 
 1. **Clone the repository:**
-   ```bash
    git clone https://github.com/ZackGroth/vucf-discord-bot.git
    cd vucf-discord-bot
 2. **Install dependencies:**
-    ```bash
    npm install
 3. Create a .env file in the root directory:
-    ```ini
    DISCORD_TOKEN=your-discord-bot-token
 4. Set the channel on your Discord server by running:
-    ```yaml
     !setvucfchannel #your-channel-name
 5. Run the bot manually (for development):
-   ```bash
    node index.js
 6. (Optional) Set up the bot to run continuously using a process manager like pm2, or host it on a platform that supports scheduled jobs.
 
