@@ -16,6 +16,7 @@ A bot that automatically posts Volunteer UCF events weekly to a designated Disco
    cd vucf-discord-bot
 2. **Install dependencies:**
    npm install
+   (shortcut: npm install discord.js dotenv node-cron puppeteer dayjs)
 3. Create a .env file in the root directory:
    DISCORD_TOKEN=your-discord-bot-token
 4. Set the channel on your Discord server by running:
